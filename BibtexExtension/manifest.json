@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Bibtex Generator",
+  "version": "1.0",
+  "description": "Autogenerate a bibtex citation for any highlighted phrase",
+  "permissions": ["contextMenus", "notifications"],
+  "action": {},
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "bibicon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "bibicon.png"
+  }
+}
