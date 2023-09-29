@@ -9,3 +9,6 @@
 
 ## TypstTemplate
 **Usage**: Create a new https://typst.app/ project -> Upload all files, overwriting main.typ
+
+## LatexTemplate
+**Usage**: Upload zip file to https://www.overleaf.com/project
