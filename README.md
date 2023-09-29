@@ -1,4 +1,6 @@
 # Dissertation-tools
+Bits and bobs to help write a dissertation - in particular a Part III Cambridge CS dissertation, but these templates can be adapted for others :).
+
 ## BibtexExtension
 **Installation**: "Load unpacked" in chrome://extensions/
 
